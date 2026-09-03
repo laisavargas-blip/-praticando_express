@@ -4,7 +4,6 @@ import { pool } from './database/db.js'
 const app = express()
 const port = 3000
 
-// Lê o json trafegado na aplicação
 app.use(express.json());
 
 app.get("/", (req, res) => {
