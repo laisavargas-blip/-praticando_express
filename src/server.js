@@ -22,3 +22,10 @@ app.get("/frutas", async (req, res) => {
 app.listen(port, () => {
     console.log(`API rodando em: http://localhost:${port}`);
 });
+
+
+
+
+
+
+
